@@ -1,1 +1,0 @@
-az deployment sub create  --name aneutovidehdeployment  --template-file ./EmptyResourceGroup.bicep --location westus --parameters location=westus --mode Complete
