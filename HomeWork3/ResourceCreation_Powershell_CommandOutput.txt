@@ -1,0 +1,102 @@
+PS C:\Users\aneutov\OneDrive - Capgemini\Documents\GitHub\AzureFundamentalsCap\HomeWork3> .\ResourceCreation_Powershell.ps1
+
+
+ResourceGroupName : aneutov-idh-rs
+Location          : westus
+ProvisioningState : Succeeded
+Tags              :
+ResourceId        : /subscriptions/cabb1a4b-9b29-459f-b2cf-b0d800aeac2d/resourceGroups/aneutov-idh-rs
+
+WARNING: Upcoming breaking changes in the cmdlet 'New-AzStorageAccount' :
+Default value of AllowBlobPublicAccess will be changed from True to False in a future release. When AllowBlobPublicAccess is False on a storage account, it
+ is not permitted to configure container ACLs to allow anonymous access to blobs within the storage account.
+Cmdlet invocation changes :
+    Old Way : AllowBlobPublicAccess is set to True by defult.
+    New Way : AllowBlobPublicAccess is set to False by default.
+Note : Go to https://aka.ms/azps-changewarnings for steps to suppress this breaking change warning, and other information on breaking changes in Azure
+PowerShell.
+
+AllowCrossTenantReplication       :
+KeyCreationTime                   : Microsoft.Azure.Commands.Management.Storage.Models.PSKeyCreationTime
+KeyPolicy                         :
+SasPolicy                         :
+ResourceGroupName                 : aneutov-idh-rs
+StorageAccountName                : aneutovidhstorage
+Id                                : /subscriptions/cabb1a4b-9b29-459f-b2cf-b0d800aeac2d/resourceGroups/aneutov-idh-rs/providers/Microsoft.Storage/storageAc
+                                    counts/aneutovidhstorage
+Location                          : westus
+Sku                               : Microsoft.Azure.Commands.Management.Storage.Models.PSSku
+Kind                              : BlobStorage
+Encryption                        : Microsoft.Azure.Management.Storage.Models.Encryption
+AccessTier                        : Hot
+CreationTime                      : 4/25/2023 11:54:17 AM
+CustomDomain                      :
+Identity                          :
+LastGeoFailoverTime               :
+PrimaryEndpoints                  : Microsoft.Azure.Management.Storage.Models.Endpoints
+PrimaryLocation                   : westus
+ProvisioningState                 : Succeeded
+SecondaryEndpoints                :
+SecondaryLocation                 :
+StatusOfPrimary                   : Available
+StatusOfSecondary                 :
+Tags                              : {}
+EnableHttpsTrafficOnly            : True
+AzureFilesIdentityBasedAuth       :
+EnableHierarchicalNamespace       :
+FailoverInProgress                :
+LargeFileSharesState              :
+NetworkRuleSet                    : Microsoft.Azure.Commands.Management.Storage.Models.PSNetworkRuleSet
+RoutingPreference                 :
+BlobRestoreStatus                 :
+GeoReplicationStats               :
+AllowBlobPublicAccess             : True
+MinimumTlsVersion                 : TLS1_0
+EnableNfsV3                       :
+EnableSftp                        :
+EnableLocalUser                   :
+AllowSharedKeyAccess              :
+ExtendedLocation                  :
+PublicNetworkAccess               :
+AllowedCopyScope                  :
+ImmutableStorageWithVersioning    :
+StorageAccountSkuConversionStatus :
+DnsEndpointType                   :
+Context                           : Microsoft.WindowsAzure.Commands.Common.Storage.LazyAzureStorageContext
+ExtendedProperties                : {}
+                                                                                                                                                                                                                                                                                                                        ResourceGroupName              : aneutov-idh-rs                                                                                                             StorageAccountName             : aneutovidhstorage                                                                                                          Name                           : default
+Id                             : /subscriptions/cabb1a4b-9b29-459f-b2cf-b0d800aeac2d/resourceGroups/aneutov-idh-rs/providers/Microsoft.Storage/storageAccou
+                                 nts/aneutovidhstorage/blobServices/default
+Type                           : Microsoft.Storage/storageAccounts/blobServices
+DefaultServiceVersion          :
+ChangeFeed                     :
+DeleteRetentionPolicy          : Microsoft.Azure.Commands.Management.Storage.Models.PSDeleteRetentionPolicy
+RestorePolicy                  :
+ContainerDeleteRetentionPolicy :
+Cors                           : Microsoft.Azure.Commands.Management.Storage.Models.PSCorsRules
+IsVersioningEnabled            : True                                                                                                                       LastAccessTimeTrackingPolicy   :                                                                                                                                                                                                                                                                                                                                                                                                                                                    CloudBlobContainer      : Microsoft.Azure.Storage.Blob.CloudBlobContainer
+Permission              : Microsoft.Azure.Storage.Blob.BlobContainerPermissions
+AccessPolicy            :
+PublicAccess            : Off
+LastModified            : 4/25/2023 11:54:41 AM +00:00
+ContinuationToken       :
+IsDeleted               :
+VersionId               :
+BlobContainerClient     : Azure.Storage.Blobs.BlobContainerClient
+BlobContainerProperties : Azure.Storage.Blobs.Models.BlobContainerProperties
+Context                 : Microsoft.WindowsAzure.Commands.Storage.AzureStorageContext
+Name                    : docs
+
+
+CloudBlobContainer      : Microsoft.Azure.Storage.Blob.CloudBlobContainer
+Permission              : Microsoft.Azure.Storage.Blob.BlobContainerPermissions
+AccessPolicy            :
+PublicAccess            : Off
+LastModified            : 4/25/2023 11:54:44 AM +00:00
+ContinuationToken       :
+IsDeleted               :
+VersionId               :
+BlobContainerClient     : Azure.Storage.Blobs.BlobContainerClient
+BlobContainerProperties : Azure.Storage.Blobs.Models.BlobContainerProperties
+Context                 : Microsoft.WindowsAzure.Commands.Storage.AzureStorageContext
+Name                    : grpointers
