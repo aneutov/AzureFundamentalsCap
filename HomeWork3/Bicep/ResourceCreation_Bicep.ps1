@@ -1,0 +1,1 @@
+az deployment sub create  --name aneutovidehdeployment  --template-file ./ResourceGroup.bicep --location westus --parameters location=westus

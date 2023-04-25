@@ -1,0 +1,104 @@
+PS C:\Users\aneutov\OneDrive - Capgemini\Documents\GitHub\AzureFundamentalsCap\HomeWork3\Bicep> .\ResourceCreation_Bicep.ps1
+{
+  "id": "/subscriptions/cabb1a4b-9b29-459f-b2cf-b0d800aeac2d/providers/Microsoft.Resources/deployments/aneutovidehdeployment",
+  "location": "westus",
+  "name": "aneutovidehdeployment",
+  "properties": {
+    "correlationId": "f9d9eb00-ebdc-4ea2-bd8b-d24f9d66632d",
+    "debugSetting": null,
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/cabb1a4b-9b29-459f-b2cf-b0d800aeac2d/resourceGroups/aneutov-idh-rs",
+            "resourceName": "aneutov-idh-rs",
+            "resourceType": "Microsoft.Resources/resourceGroups"
+          }
+        ],
+        "id": "/subscriptions/cabb1a4b-9b29-459f-b2cf-b0d800aeac2d/resourceGroups/aneutov-idh-rs/providers/Microsoft.Resources/deployments/storageDeployment",
+        "resourceGroup": "aneutov-idh-rs",
+        "resourceName": "storageDeployment",
+        "resourceType": "Microsoft.Resources/deployments"
+      }
+    ],
+    "duration": "PT37.9047664S",
+    "error": null,
+    "mode": "Incremental",
+    "onErrorDeployment": null,
+    "outputResources": [
+      {
+        "id": "/subscriptions/cabb1a4b-9b29-459f-b2cf-b0d800aeac2d/resourceGroups/aneutov-idh-rs"
+      },
+      {
+        "id": "/subscriptions/cabb1a4b-9b29-459f-b2cf-b0d800aeac2d/resourceGroups/aneutov-idh-rs/providers/Microsoft.Storage/storageAccounts/aneutovidhstorage",
+        "resourceGroup": "aneutov-idh-rs"
+      },
+      {
+        "id": "/subscriptions/cabb1a4b-9b29-459f-b2cf-b0d800aeac2d/resourceGroups/aneutov-idh-rs/providers/Microsoft.Storage/storageAccounts/aneutovidhstorage/blobServices/default",
+        "resourceGroup": "aneutov-idh-rs"
+      },
+      {
+        "id": "/subscriptions/cabb1a4b-9b29-459f-b2cf-b0d800aeac2d/resourceGroups/aneutov-idh-rs/providers/Microsoft.Storage/storageAccounts/aneutovidhstorage/blobServices/default/containers/docs",
+        "resourceGroup": "aneutov-idh-rs"
+      },
+      {
+        "id": "/subscriptions/cabb1a4b-9b29-459f-b2cf-b0d800aeac2d/resourceGroups/aneutov-idh-rs/providers/Microsoft.Storage/storageAccounts/aneutovidhstorage/blobServices/default/containers/grpointers",
+        "resourceGroup": "aneutov-idh-rs"
+      }
+    ],
+    "outputs": null,
+    "parameters": {
+      "location": {
+        "type": "String",
+        "value": "westus"
+      }
+    },
+    "parametersLink": null,
+    "providers": [
+      {
+        "id": null,
+        "namespace": "Microsoft.Resources",
+        "providerAuthorizationConsentState": null,
+        "registrationPolicy": null,
+        "registrationState": null,
+        "resourceTypes": [
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              "westus"
+            ],
+            "properties": null,
+            "resourceType": "resourceGroups",
+            "zoneMappings": null
+          },
+          {
+            "aliases": null,
+            "apiProfiles": null,
+            "apiVersions": null,
+            "capabilities": null,
+            "defaultApiVersion": null,
+            "locationMappings": null,
+            "locations": [
+              null
+            ],
+            "properties": null,
+            "resourceType": "deployments",
+            "zoneMappings": null
+          }
+        ]
+      }
+    ],
+    "provisioningState": "Succeeded",
+    "templateHash": "4604142685720554919",
+    "templateLink": null,
+    "timestamp": "2023-04-25T17:07:46.968209+00:00",
+    "validatedResources": null
+  },
+  "tags": null,
+  "type": "Microsoft.Resources/deployments"
+}
